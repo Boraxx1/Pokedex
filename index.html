@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pokédex</h1>
+    <input type="text" id="search" placeholder="Buscar por nombre o ID...">
+    <select id="sortFilter">
+        <option value="">Ordenar</option>
+        <option value="id-asc">ID: menor a mayor</option>
+        <option value="id-desc">ID: mayor a menor</option>
+        <option value="name-asc">Nombre: A-Z</option>
+        <option value="name-desc">Nombre: Z-A</option>
+    </select>
+</header>
+
+<nav class="type-nav" id="typeNav"></nav>
+
+<div id="loader" class="loader">Cargando Pokémon...</div>
+
+<main>
+    <div id="pokemon-container" class="pokemon-container"></div>
+</main>
+
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <button id="close" class="close-btn">✖</button>
+        <div id="pokemon-detail"></div>
+    </div>
+</div>
+
+<div class="load-more-container">
+    <button id="loadMoreBtn">Mostrar más Pokémon</button>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/detalles.js"></script>
+<script src="js/tipos.js"></script>
+</body>
+</html>
