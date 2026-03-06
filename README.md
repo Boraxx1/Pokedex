@@ -23,7 +23,7 @@ El proyecto permite explorar Pokémon, filtrarlos, ordenarlos, ver sus estadíst
   - Tipos traducidos al español
   - Debilidades
   - Cadena evolutiva con imágenes
-- 📱 Diseño completamente responsive (móvil, tablet y escritorio)
+-  Diseño completamente responsive (móvil, tablet y escritorio)
 
 ---
 
